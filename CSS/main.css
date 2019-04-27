@@ -1,0 +1,190 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#contactMe{
+    text-align: left;
+    font-size: 55px;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+header{
+    text-align: center;
+}
+#firstName{
+    font-size: 45px;
+}
+#programmer{
+    font-size: 25px;
+}
+#navMenu{
+    height: 110px; /* Full-height: remove this if you want "auto" height */
+    width: 100%; /* Set the width of the sidebar */
+    position: sticky; 
+    top: 0; 
+    left: 0;
+    background-color: #111; /* Black */
+    padding-top: 0%;
+    margin-top: 0%;
+}
+#left{
+    font-size: 110%;
+    margin-top: 0%;
+    padding-left: 2%;
+    float: left;
+    width: 30%;
+}
+#middle{
+    margin-top: 5%;
+    width: 30%;
+    display: inline-block;
+}
+#right{
+    margin-top: 0%;
+    float: right;
+    width: 30%;
+    padding-left: 5%;
+}
+#me{
+    margin-left: 35%;
+}
+#aboutMeP{
+    font-size: 28px;
+}
+.headLinks{
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 28px;
+    padding-left: 310px;
+    list-style-type: none;
+
+}
+a:link{ 
+    color: white;
+    font-size: 130%;
+    font-weight: bold;
+    text-decoration: none;
+    }
+a:visited{
+    font-weight: bold;
+    color: white;
+ }
+a:hover{
+    color: rgb(250, 196, 204)
+}
+.heads{
+    padding-bottom: 30px;
+    font-size: 45px;
+}
+#me{
+    margin-left: 27%;
+    border-radius: 50%;
+    border: solid rgb(240, 237, 237) 15px;
+    height: 300px;
+    width: 380px;
+}
+#coronal{
+    float: left;
+}
+#about{
+    font-size: 25px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.p{
+    font-size: 25px;
+}
+#personalInfo{
+    text-align: center;
+    padding-bottom: 3%;
+}
+hr{
+    display: block;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    border-color: rgb(250, 196, 204);
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.resumeH3{
+    font-size: 25px;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+.resumeH4{
+    font-size: 18px;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+.resumeH5{
+    padding-left: 5%;
+    font-size: 15px;
+}
+.resumeUl{
+    padding-left: 7%;
+    font-size: 16px;
+}
+.resumeInfo{
+    padding-left: 5%;
+    margin-right: 5%;
+    font-size: 16px;
+}
+#columns{
+    column-width: 320px;
+    column-gap: 15px;
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+figure{
+    background: #fefefe;
+    border: 2px solid rgb(250, 196, 204);
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    margin: 0 2px 15px;
+    padding: 15px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+#columns img{
+    width: 100%; height: auto;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+}
+figcaption {
+     font-size: .9rem;
+    color: #444;
+     line-height: 1.5;
+     text-align: center;
+}
+figure:hover{
+    transform: scale(1.05);
+    transition: .3s;
+}
+#contactP{
+    float: left;
+    width: 30%;
+    padding-left: 5%;
+    font-size: 35px;
+}
+#githubIcon{
+    margin-top: 20%;
+}
+#icons img{
+    margin-left: 6%;
+    margin-top: 8%;
+}
+#icons img:hover{
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+
+
+
+
+
